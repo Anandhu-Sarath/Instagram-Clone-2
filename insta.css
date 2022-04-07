@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.header{
+    background-color: white;
+    margin-left: 0%;
+    width: 100%;
+    height: 65px;
+    margin-top: 0%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.logo img{
+    cursor: pointer;
+}
+.container{
+    background-color: gray;
+}
+
+
+.searchbar input[type="text"]{
+    
+    border-radius: 8px;
+    width: 106%;
+    margin-left: 203%;
+    height: 29px;
+    position: relative;
+    float: left;
+    margin-top: 11%;
+    background-color: #efefef;
+    border: none;
+
+    
+}
+
+
+.insidesearch{
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    cursor: text;
+
+    
+
+    
+}
+.svg{
+    position: absolute;
+    height: 20px;
+    top: 22px;
+
+    left: 579px;
+}
+
+
+.body{
+  margin: 0%;
+}
+
+
+.tagline{
+    width: 30%;
+
+}
+
+
+.icons{
+    width: 45%;
+    margin-left: 12%;
+    margin-top: 0%;
+    
+}
+.homeicon{
+    margin-left: 52%;
+    margin-top: 25px;
+}
+
+
+.messege{
+    margin-top: -4%;
+    margin-left: 59%;
+    margin-bottom: 34px;
+}
+.insert{
+    margin-top: -16%;
+    margin-left: 66%;
+    margin-bottom: 53px;
+
+}
+.findpeople{
+    margin-top: -13%;
+    margin-left: 73%;
+    margin-bottom: 71px;
+
+}
+.like{
+    border-radius: 50%;
+    margin-top: -19%;
+    margin-left: 80%;
+    margin-bottom: 89px;
+}
+
+
+
+.propic{
+    border-radius: 50%;
+    margin-top: -18%;
+    margin-left: 87%;
+    margin-bottom: 107px;
+    border-color: black;
+    width: 26px;
+    height: 25px;
+}
+
+
+
+
+
+
+.image{
+    margin-left: 134px;
+    margin-top: 20px;
+}
+
+.storysection{
+    background-color: white;
+    /* margin-left: 261px;
+    margin-right: 154px;
+    width: 51%; */
+    height: 84px;
+    /* margin-top: 40px; */
+    border-bottom: 1px solid black;
+    display: flex;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sidebar{
+    width: 22%;
+    /* background-color: green; */
+    height: 100vh;
+}
+
+.main-content {
+    width: 50%;
+    /* background-color: blue; */
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+.right-side-bar{
+    width: 25%;
+    /* background-color: red; */
+    height: 100vh;
+}
+.story{
+    border-radius: 50%;
+    width: 49px;
+    height: 50px;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-right: -3px;
+    border: 3px solid red;
+    
+}
+.again{
+    display: flex;
+}
+.post{
+    /* height: 1000px; */
+    /* background-color: aqua; */
+    margin-top: 30px;
+    border: 1px solid rgb(167, 162, 162);
+
+}
+.postpro{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+  
+}
+.proname{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.darkcolor{
+    margin-right: .3rem;
+}
+.uploads{
+    display: flex;
+    /* background-color: burlywood; */
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+.lightcolor{
+    color: gray;
+
+}
+
+.photo{
+    height: 700px;
+    width: 100%;
+    background: url("./john.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.icons-post{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+    
+.post-icons{
+    margin-left: 10px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.commentpost{
+    margin-left: 10px;
+}
+.sharepost{
+    margin-left: 10px;
+}
+
+.wish{
+    display: flex;
+    
+    flex-direction: row;
+}
+.like-section{
+    margin-top: 10px;
+    
+    display: flex;
+}
+
+.like-pic{
+    border-radius: 50%;
+    width: 28px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.light-color{
+    color: gray;
+    margin-right: .3rem;
+    margin-top: 12px;
+    margin-left: 10px;
+  
+    
+}
+.dark-color{
+    margin-right: .3rem;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.comment-part{
+    
+    display: flex;
+}
+.caption-part{
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+.hours{
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+
+
+
+.main-emoji {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    border-top: 1px solid #f2efef;
+    padding: 1rem 0;
+}
+.emoji {
+    margin-left: .5rem;
+    margin-right: 1rem;;
+}
+.add-comment{
+    width: 100%;
+}
+.form-control {
+    border: none;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: .5rem 0;
+}
+
+.photo-2{
+    height: 700px;
+    width: 100%;
+    background: url("./sunil.webp") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+
+    /* background-color: aqua; */
+}
+.switch{
+    color: blue;
+}
+
+.right-profile{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    border-color: black;
+    width: 60px;
+    height: 56px;
+    
+    padding-left: 5px;
+    padding-top: 5px;
+    
+
+}
+
+
+.write{
+    display: flex;
+    flex-direction: row;
+   gap: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.light{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.sug{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 2px;
+}
+
+
+
+
+.suggestion-pic{
+    border-radius: 50%;
+    border-color: black;
+    width: 46px;
+    height: 44px;
+
+}
+
+
+.sugg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.known{
+    display: flex;
+    
+}
+
+.box{
+    margin-left: 5px;
+}
+.foot{
+    margin-top: 50px;
+}
+
+
+.footer{
+    color: rgb(169, 159, 159);
+    
+
+}
+
+.last{
+    margin-top: 50px;
+}
+
+
+/* .post{ */
+    /* background-color: red; */
+    /* margin-left: 348px;
+    margin-right: 152px;
+    width: 37%;
+    height: 475px;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    display: flex;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+
+
+}
+
+
+.postpro{
+    border-radius: 50%;
+    width: 38px;
+    height: 36px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+
+
+.pic-container{
+    width: 500px;
+    height: 400px;
+    background: url("./john.jpg");
+    background-color: black;
+
+
+} */
+
+/* .pic-container img{
+    width: 563px;
+} */
+/* .proname{
+    
+    margin-left: 15px;
+    margin-top: -1px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+
+
+.place{
+    margin-left: -55px;
+    margin-top: 1px;
+    color: rgba(var(--f52,142,142,142),1);
+    text-decoration: none;
+    font:inherit;
+
+}
+
+
+
+.iconpost{
+    display: flex;
+    margin-left: -547px;
+    margin-top: 325px;
+    margin-right: 531px; */
+    /* background-color: yellow; */
+    /* position: relative;
+}
+.likepost{
+    margin-left: 10px;
+    color: black;
+}
+
+.commentpost{
+    margin-left: 10px;
+}
+
+.sharepost{
+    margin-left: 10px;
+}
+.wishlist{
+    margin-left: 406px;
+}
+
+
+
+.dots{
+    margin-top: -314px;
+    margin-bottom: 25px;
+    margin-left: -13px;
+} */
+
+
+
+/* .end{
+    
+    border-radius: 50%;
+    width: 23px;
+    height: 19px;
+    margin-left: -536px;
+    margin-top: 36px;
+    display: flex;
+    background-color: green;
+} */
+
+
+/* .likedby{
+    display: flex;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 11px;
+    line-height: 40px;
+}
+
+.name{
+    color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 11px;
+        line-height: 47px;
+   
+    }
+
+    .And{
+        display: flex;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 11px;
+    line-height: 40px;
+
+    }
+
+    .others{
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 11px;
+        line-height: 47px;
+
+    }
+    .user{
+        color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -219px;
+    line-height: 112px;
+    display: flex;
+   
+    }
+
+    .caption{
+        display: flex;
+        color: gray;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 17px;
+        line-height: 58px;
+        font-size: 30px;
+    }
+
+    
+
+    .comment-part{
+        /* background-color: red; */
+        /* display: flex;
+        position: absolute;
+        left:0;
+        top: 2rem;
+        align-items: center;
+    }
+    
+    .end{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-right: .8rem; */
+        /* object-fit: cover; */
+    /* }
+
+
+    .light-color{
+        color: gray;
+        margin-right: .3rem;
+    }
+
+    .dark-color{
+        margin-right: .3rem;
+    }
+
+    .caption-part{
+        display: flex;
+        position: absolute;
+        left:0;
+        top: 4.5rem;
+        align-items: center;
+
+    }
+    .hours{
+        display: flex;
+        position: absolute;
+        left:0;
+        top: 6rem;
+        align-items: center;
+       font-size: small;
+
+    } */
+
